@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="532.0" prefWidth="696.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotel.AfterLog">
+   <children>
+      <ImageView cache="true" cacheHint="SPEED" fitHeight="648.0" fitWidth="899.0" layoutY="-4.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pic/panel.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="270.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="APARTAMENT W WARSZAWIE">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="23.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="218.0" fitWidth="389.0" layoutX="41.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pic/wwa.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="474.0" layoutY="287.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="117.0" text="Button" />
+      <Button layoutX="765.0" layoutY="287.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="117.0" text="Zarezerwuj" />
+      <TextField fx:id="ID" layoutX="591.0" layoutY="115.0" prefHeight="25.0" prefWidth="174.0" />
+      <Text layoutX="651.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Twoje ID" />
+      <Text layoutX="650.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Na ile dni?" />
+      <TextField fx:id="ile" layoutX="632.0" layoutY="232.0" prefHeight="25.0" prefWidth="84.0" />
+      <DatePicker fx:id="kiedy" layoutX="591.0" layoutY="175.0" />
+      <Text layoutX="652.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Od kiedy?" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1280.0" styleClass="bodybg" stylesheets="@../pic/AfterLog.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotel.AfterLog">
+   <children>
+      <ImageView fitHeight="95.0" fitWidth="147.0" layoutX="24.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pic/logo.png" />
+         </image>
+      </ImageView>
+      <Pane fx:id="war" layoutX="909.0" layoutY="53.0" prefHeight="535.0" prefWidth="653.0" />
+      <ImageView cache="true" cacheHint="SPEED" fitHeight="648.0" fitWidth="899.0" layoutX="256.0" layoutY="36.0" opacity="0.91" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pic/panel.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="543.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="APARTAMENT W GDANSKU">
+         <font>
+            <Font name="Bookman Old Style Bold Italic" size="23.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="218.0" fitWidth="389.0" layoutX="314.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pic/gdansk.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="906.0" layoutY="329.0" mnemonicParsing="false" onAction="#ap_waw2" prefHeight="38.0" prefWidth="117.0" text="Zarezerwuj" />
+      <Button layoutX="1076.0" layoutY="501.0" mnemonicParsing="false" onAction="#back3" prefHeight="45.0" prefWidth="55.0" text="Powrót" />
+      <TextField fx:id="ID2" layoutX="889.0" layoutY="166.0" />
+      <Text layoutX="940.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Twoje ID" />
+      <Text layoutX="937.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Od kiedy?" />
+      <Text layoutX="936.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Na ile dni?" />
+      <TextField fx:id="ile2" layoutX="889.0" layoutY="293.0" />
+      <TextField fx:id="kiedy2" layoutX="890.0" layoutY="225.0" promptText="yyyy-mm-dd" />
+      <Label fx:id="lID_A2" layoutX="335.0" layoutY="402.0" />
+      <Label fx:id="lnr_r2" layoutX="335.0" layoutY="431.0" />
+      <Label fx:id="lfloor2" layoutX="335.0" layoutY="463.0" />
+      <Label fx:id="lown2" layoutX="335.0" layoutY="493.0" />
+      <Label fx:id="lbeds2" layoutX="464.0" layoutY="402.0" />
+      <Label fx:id="lprice2" layoutX="464.0" layoutY="431.0" />
+      <Label fx:id="lrate_w2" layoutX="464.0" layoutY="463.0" />
+      <Label fx:id="lsmoke2" layoutX="464.0" layoutY="493.0" />
+      <Label fx:id="lpet2" layoutX="585.0" layoutY="402.0" />
+      <Label fx:id="lava2" layoutX="585.0" layoutY="485.0" />
+      <Label fx:id="lcity2" layoutX="571.0" layoutY="440.0" />
+      <Button layoutX="335.0" layoutY="367.0" mnemonicParsing="false" onAction="#waw_info2" text="Pokaż informacje" />
+      <Button layoutX="515.0" layoutY="367.0" mnemonicParsing="false" onAction="#ukryj_w2" text="Ukryj informacje" />
+   </children>
+</AnchorPane>

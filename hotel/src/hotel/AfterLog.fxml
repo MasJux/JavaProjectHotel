@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="afterlog" prefHeight="620.0" prefWidth="1280.0" styleClass="bodybg" stylesheets="@../pic/AfterLog.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotel.AfterLog">
+   <children>
+      <ImageView fitHeight="95.0" fitWidth="147.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pic/logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1181.0" layoutY="16.0" mnemonicParsing="false" onAction="#userLogOut" prefHeight="30.0" prefWidth="55.0">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pic/wyloguj.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="88.0" layoutY="289.0" mnemonicParsing="false" onAction="#warszawa" prefHeight="201.0" prefWidth="268.0">
+         <graphic>
+            <ImageView fitHeight="191.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pic/wwa.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="506.0" layoutY="289.0" mnemonicParsing="false" onAction="#gdansk" prefHeight="201.0" prefWidth="268.0">
+         <graphic>
+            <ImageView fitHeight="221.0" fitWidth="257.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pic/gdansk.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="941.0" layoutY="289.0" mnemonicParsing="false" onAction="#krakow" prefHeight="201.0" prefWidth="268.0">
+         <graphic>
+            <ImageView fitHeight="215.0" fitWidth="277.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pic/krakow.jpg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Text layoutX="442.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apartaments S.A">
+         <font>
+            <Font name="Bernard MT Condensed" size="64.0" />
+         </font>
+      </Text>
+      <Text layoutX="492.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wybierz apartament">
+         <font>
+            <Font name="Arial Unicode MS" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="#e84d4d" layoutX="124.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WARSZAWA">
+         <font>
+            <Font name="Bell MT Bold" size="32.0" />
+         </font>
+      </Text>
+      <Text fill="#e84d4d" layoutX="1014.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KRAKOW">
+         <font>
+            <Font name="Bell MT Bold" size="32.0" />
+         </font>
+      </Text>
+      <Text fill="#e84d4d" layoutX="571.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GDANSK">
+         <font>
+            <Font name="Bell MT Bold" size="32.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
