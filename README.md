@@ -1,5 +1,3 @@
 # JavaProjectHotel
 Personal project from University.
-![alt text][ss]
-
-[ss]: https://imgur.com/tIPikpB "Logo Title Text 2"
+[img]https://i.imgur.com/tIPikpB.png[/img]
